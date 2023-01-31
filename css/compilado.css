@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header__logo {
+  width: 150px;
+  height: 150px; }
+
+.main {
+  background-color: #059205;
+  padding: 2rem;
+  margin: 0;
+  display: grid;
+  justify-content: center; }
+  .main__title {
+    text-align: center;
+    padding: 1.5rem;
+    margin: 0; }
+  .main__services {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    text-align: center;
+    padding: 1.5rem; }
+    .main__services__item {
+      display: grid;
+      justify-content: center;
+      margin: 2rem; }
+
+.main__title {
+  text-align: center;
+  padding: 1.5rem;
+  margin: 0; }
+
+.main__services--tienda {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: grid;
+  text-align: center;
+  padding: 1.5rem; }
+
+.main__services--cursos {
+  display: grid;
+  text-align: center; }
+
+.contact {
+  justify-content: center;
+  display: block; }
+  .contact__data {
+    display: flex;
+    justify-content: center; }
+
+.footer {
+  background: #222222 url(//bosquessinfronteras.com/wp-content/uploads/2017/03/footer5-300x175.png) bottom center repeat-x scroll;
+  padding: 2rem 2rem;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid; }
+  .footer__heading {
+    position: relative;
+    text-align: center;
+    color: #f3f2eb;
+    z-index: 2;
+    padding: 0 10px; }
+  .footer__parrafo {
+    color: #b1b0a7; }
+  .footer__content {
+    color: #f3f2eb;
+    text-decoration: none; }
+
+@media screen and (max-width: 426px) {
+  .menu__principal {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0; }
+  .menu__item {
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 1rem;
+    margin: 0.3rem; }
+  .main__services {
+    grid-template-columns: 1fr;
+    display: grid;
+    text-align: center;
+    padding: 1.5rem; }
+  .main__services--tienda {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    text-align: center;
+    padding: 0rem; }
+  .main__services__item {
+    display: grid;
+    justify-content: center;
+    margin: 1rem; }
+  .main__nosotros {
+    margin-top: 2rem;
+    padding: 0rem; }
+  .main {
+    padding: 0; }
+  .footer_hidden {
+    display: none; }
+  .footer {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    padding: 0; }
+  .footer__heading {
+    padding: 0;
+    text-align: initial; }
+  .footer__parrafo {
+    padding: 0; } }
+
+@media screen and (max-width: 768px) {
+  .main__services--tienda {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    text-align: center;
+    padding: 0rem; }
+  .main__services__item {
+    display: grid;
+    justify-content: center;
+    margin: 1rem; } }

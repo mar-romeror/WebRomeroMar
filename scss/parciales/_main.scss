@@ -1,0 +1,23 @@
+.main {
+    background-color: $background-principal;
+    padding: $background-padding;
+    margin: $background-margin;
+    display: grid;
+    justify-content: center;
+    &__title{
+        text-align: center;
+        padding: 1.5rem;
+        margin: 0;
+    }
+    &__services{
+        grid-template-columns: 1fr 1fr 1fr;
+        display: grid;
+        text-align: center;
+        padding: 1.5rem;
+        &__item{
+            display: grid;
+            justify-content: center;
+            margin: 2rem;
+        }
+     }
+}
