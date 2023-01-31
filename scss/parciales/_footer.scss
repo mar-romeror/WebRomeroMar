@@ -1,0 +1,22 @@
+.footer {
+    background: $background-footer;
+    padding: 2rem 2rem;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    &__heading {
+        position: relative;
+        text-align: center;
+        color: #f3f2eb;
+        z-index: 2;
+        padding: 0 10px;
+    }
+    &__parrafo{
+        color: #b1b0a7;
+    }
+    &__content{
+        color: #f3f2eb;
+        text-decoration: none;
+        
+    }
+}
